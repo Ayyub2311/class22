@@ -1,0 +1,59 @@
+.header__nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  color: white;
+  font-size: 50px;
+}
+.header__box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__login {
+  color: white;
+  font-size: 30px;
+  background: transparent;
+}
+.header__signup {
+  background-color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+.header__burger {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.header__topline {
+  width: 100%;
+  height: 3px;
+  background: white;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+.header__btmline {
+  width: 100%;
+  height: 3px;
+  background: white;
+  transition: all 0.3s;
+}
+.header__modal {
+  position: absolute;
+  right: -100vh;
+}
+.header__moveTop {
+  transform: rotate(50deg);
+  translate: 0px 7 px;
+}
+.header__moveBtm {
+  rotate: -50deg;
+  translate: 0px -13px;
+}/*# sourceMappingURL=style.css.map */

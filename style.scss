@@ -1,0 +1,75 @@
+.header {
+  &__nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    color: white;
+    font-size: 50px;
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__login {
+    color: white;
+font-size: 30px;
+background: transparent;  }
+  &__signup {
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  &__burger {
+    width: 50px;
+    height: 50px;
+    // border: solid white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  &__topline {
+    width: 100%;
+    height: 3px;
+    background: white;
+    margin-bottom: 10px;
+    transition: all .3s;
+
+   
+  }
+  &__btmline {
+    width: 100%;
+    height: 3px;
+    background: white;
+    transition: all .3s;
+
+   
+
+  }
+  &__modal {
+    position: absolute;
+    right: -100vh;
+
+  }
+  &__text {
+  }
+  &__about {
+  }
+  &__about-top {
+  }
+
+  &__moveTop{
+    transform: rotate(50deg);
+    translate: 0px 7 px;
+  }
+
+  &__moveBtm{
+    rotate: -50deg;
+    translate: 0px -13px;
+  }
+}
